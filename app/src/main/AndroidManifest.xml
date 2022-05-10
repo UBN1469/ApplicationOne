@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationOne">
         <activity
+            android:name=".FourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThreeActivity"
+            android:exported="false" />
+        <activity
             android:name=".TwoActivity"
             android:exported="false" />
         <activity
